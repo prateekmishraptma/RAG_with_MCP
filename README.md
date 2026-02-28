@@ -6,7 +6,7 @@ This project demonstrates how modern LLM applications can integrate **multiple m
 
 ---
 
-<img width="985" height="1060" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/1460a72e-1342-449c-9810-be9794164b05" />
+<img width="985" height="1060" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/a203d11e-5aac-438d-9ebf-2f69df7558d0" />
 
 
 ## 🚀 Key Features
@@ -41,19 +41,24 @@ User Query
 This hybrid approach reduces hallucinations and improves factual grounding.
 
 📂 Project Structure
-
 .
 ├── RAG_MCP.ipynb        # Complete RAG pipeline (vector + MCP + LLM)
 ├── mcp_server.py       # FastAPI MCP memory server
 ├── README.md           # Project documentation
-
 ⚙️ Tech Stack
+
 Python 3.10+
+
 LangChain (Runnable API)
-FAISS=
+
+FAISS
+
 HuggingFace Transformers
+
 FLAN-T5 (google/flan-t5-base)
+
 FastAPI
+
 Pydantic
 
 🏃‍♂️ How to Run the Project
